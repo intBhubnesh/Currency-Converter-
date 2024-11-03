@@ -28,7 +28,7 @@ function Keyboard({ amount, setAmount, onClose }) {
                 setAmount(value);
                 }
         };
-
+    // ok
     return (
         <motion.div
             initial={{ y: "100%" }}
