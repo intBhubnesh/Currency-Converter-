@@ -50,7 +50,7 @@
         }
 
         return <div>
-                <div className="relative bg-red-500 rounded-[36px] min-w-[360px]  h-[98vh]  overflow-hidden">
+                <div className="relative bg-red-500 rounded-[36px] min-w-[360px]  h-[98vh]  overflow-hidden shadow-md">
                 {/* main screen */}
                 { screen=='main' && (
                     <motion.div

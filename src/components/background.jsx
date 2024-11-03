@@ -1,8 +1,10 @@
 import { React } from "react";
+import coin from "./../assets/Coins.jpeg"
 
 function Background() {
-    return       <div className='w-full h-screen relative bg-rose-200 z-0'></div>
-
+    return       <div className='relative z-0 w-full h-screen bg-red-400 shadow-md blur-sm '>
+        <img src={coin} alt="" />
+    </div>
 }
 
 

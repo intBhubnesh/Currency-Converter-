@@ -39,7 +39,7 @@ function Description() {
     }, [features.length]);
 
     return (
-        <div className="hidden md:block relative bg-white text-zinc-900 rounded-[40px] w-[60%] max-w-full h-[98vh]">
+        <div className="hidden md:block relative bg-white text-zinc-900 rounded-[40px] w-[60%] max-w-full h-[98vh] shadow-md ">
             {/* Upper Section */}
             <div className="flex flex-col justify-center gap-5 p-10">
                 <h1 className="text-3xl font-semibold lg:text-4xl">Currency Converter</h1>

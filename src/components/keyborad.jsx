@@ -35,7 +35,7 @@ function Keyboard({ amount, setAmount, onClose }) {
             animate={{ y: 0 }}
             exit={{ y: "100%" }}
             transition={{ type: "spring", stiffness: 100, damping: 20 }}
-            className="absolute inset-0 bg-red-500"
+            className="absolute inset-0 bg-red-500 "
         >
             {/* wrapper */}
             <div className="flex flex-col items-center justify-center gap-5 mt-10">
